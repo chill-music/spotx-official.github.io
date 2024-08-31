@@ -14,11 +14,11 @@ function Run-SpotX {
     $retryInterval = 5
 
     if ($mirror) { 
-        $url = 'https://spotx-official.github.io/SpotX/run.ps1' 
+        $url = 'https://hurricane-spotx-official.github.io/SpotX/run.ps1' 
         $params += " -m"
     }
     else {
-        $url = 'https://raw.githubusercontent.com/SpotX-Official/SpotX/main/run.ps1'
+        $url = 'https://raw.githubusercontent.com/chill-music/Hurricane-Spotx/main/run.ps1'
     }
 
     for ($retry = 1; $retry -le $maxRetryCount; $retry++) {
